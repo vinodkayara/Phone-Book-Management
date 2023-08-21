@@ -1,51 +1,13 @@
+<h1>Phone Book Management System</h1>
+<p>This is a simple Phone Book Management System implemented in C. The program allows users to manage their contacts by performing various operations like adding, searching, updating, deleting, and displaying contacts. Contacts are stored as a linked list of structures in memory and can be saved to and loaded from a file for persistence.</p>
 
-
-    <h1>Phone Book Management System</h1>
-    <p>This is a simple Phone Book Management System implemented in C. The program allows users to manage their contacts by performing various operations like adding, searching, updating, deleting, and displaying contacts. Contacts are stored as a linked list of structures in memory and can be saved to and loaded from a file for persistence.</p>
-
-    <h2>Features</h2>
-    <ol>
-        <li><strong>Add Contact</strong>: Allows the user to add a new contact to the phone book. The user is prompted to enter the contact's name, phone number, and email.</li>
-        <li><strong>Search Contact</strong>: Enables the user to search for a contact by providing either the contact's name or phone number. If a match is found, the contact details are displayed.</li>
+<h2>Features</h2>
+<ol>
+  <li><strong>Add Contact</strong>: Allows the user to add a new contact to the phone book. The user is prompted to enter the contact's name, phone number, and email.</li>
+   <li><strong>Search Contact</strong>: Enables the user to search for a contact by providing either the contact's name or phone number. If a match is found, the contact details are displayed.</li>
         <li><strong>Display Contacts</strong>: Displays all the contacts currently stored in the phone book. Each contact's name, phone number, and email are shown.</li>
         <li><strong>Update Contact</strong>: Allows the user to update the details of an existing contact. The user provides the name or phone number of the contact to update, and then enters the new name, phone number, and email.</li>
         <li><strong>Delete Contact</strong>: Enables the user to delete a contact from the phone book. The user provides the name or phone number of the contact to delete.</li>
         <li><strong>Save Contacts to File</strong>: Saves all the contacts currently in the phone book to a text file named "phonebook.txt". The contacts are stored in CSV (Comma-Separated Values) format.</li>
         <li><strong>Exit</strong>: Exits the program and performs necessary cleanup, including saving contacts to the file.</li>
-    </ol>
-
-    <h2>Usage</h2>
-    <ol>
-        <li>Compile the program using a C compiler (e.g., gcc).</li>
-        <li>Run the compiled executable.</li>
-        <li>Follow the on-screen menu to perform desired operations.</li>
-    </ol>
-
-    <h2>Implementation Details</h2>
-    <ul>
-        <li>Contacts are stored as a linked list of structures, where each structure represents a contact and holds the contact's name, phone number, email, and a pointer to the next contact.</li>
-        <li>Memory allocation is performed using <code>malloc()</code> when adding new contacts.</li>
-        <li>Contacts are saved to and loaded from a text file named "phonebook.txt".</li>
-        <li>User inputs are sanitized to handle spaces and newline characters using <code>scanf()</code> with formatted strings.</li>
-        <li>Proper error handling and messages are provided for memory allocation failures and file I/O errors.</li>
-    </ul>
-
-    <h2>File Descriptions</h2>
-    <ul>
-        <li><code>main.c</code>: Contains the main program logic and menu-driven user interface.</li>
-        <li><code>phonebook.txt</code>: The text file where contacts are stored and loaded from.</li>
-    </ul>
-
-    <h2>Note</h2>
-    <ul>
-        <li>This program provides basic contact management functionalities and is intended for educational purposes.</li>
-        <li>Error handling and edge cases (e.g., duplicate contacts) are not extensively covered in this implementation.</li>
-    </ul>
-
-    <h2>Author</h2>
-    <p>Your Name</p>
-
-    <h2>License</h2>
-    <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
-
-
+</ol>
