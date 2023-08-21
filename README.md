@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
 
-<body>
 
     <h1>Phone Book Management System</h1>
     <p>This is a simple Phone Book Management System implemented in C. The program allows users to manage their contacts by performing various operations like adding, searching, updating, deleting, and displaying contacts. Contacts are stored as a linked list of structures in memory and can be saved to and loaded from a file for persistence.</p>
@@ -51,6 +48,4 @@
     <h2>License</h2>
     <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
 
-</body>
 
-</html>
