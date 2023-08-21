@@ -11,3 +11,5 @@
         <li><strong>Save Contacts to File</strong>: Saves all the contacts currently in the phone book to a text file named "phonebook.txt". The contacts are stored in CSV (Comma-Separated Values) format.</li>
         <li><strong>Exit</strong>: Exits the program and performs necessary cleanup, including saving contacts to the file.</li>
 </ol>
+<h2>Mind Map</h2>
+<img src="https://github.com/vinodkayara/Phone-Book-Management/blob/main/Mind%20map.png"></img>
