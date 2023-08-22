@@ -8,8 +8,8 @@ modify, list as well as you can also do a search and delete operations.</li>
 <h2><u>User Roles</u></h2>
   <p> <i>The Phone book management system has two user roles:</i></p>
   <ul>
-    <li><strong>ADMIN:</strong> Authorized personnel responsible for managing the stock and performing administrative functions.</li>
-    <li><strong>USER:</strong> Regular users or customers who can access the system to view available medicines and place orders.</li>
+    <li><strong>ADMIN:</strong> Authorized personnel responsible for managing the Phone-book and performing administrative functions.</li>
+    <li><strong>USER:</strong> Regular users or customers who can access the system to view available contacts . Users can log in and can have different permissions.</li>
   </ul>
 <h2>Features</h2>
 <ol>
