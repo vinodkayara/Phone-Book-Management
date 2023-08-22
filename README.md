@@ -1,5 +1,10 @@
-<h1>Phone Book Management System</h1>
-<p>This is a simple Phone Book Management System implemented in C. The program allows users to manage their contacts by performing various operations like adding, searching, updating, deleting, and displaying contacts. Contacts are stored as a linked list of structures in memory and can be saved to and loaded from a file for persistence.</p>
+![image](https://github.com/vinodkayara/Phone-Book-Management/assets/115912502/29db3cb9-72ee-4eb5-8c24-ec8213b80ee6)<h1>Phone Book Management System</h1>
+<ul>
+<li><p>This is a simple Phone Book Management System implemented in C. The program allows users to manage their contacts by performing various operations like adding, searching, updating, deleting, and displaying contacts. Contacts are stored as a linked list of structures in memory and can be saved to and loaded from a file for persistence</p></li>
+<li>Phonebook Management System allows you to perform the simple phonebook
+operations as you do in the mobile phonebook. You can do operations like insert,
+modify, list as well as you can also do a search and delete operations.</li>
+</ul>
 <h2><u>User Roles</u></h2>
   <p> The Phone book management system has two user roles:</p>
   <ul>
