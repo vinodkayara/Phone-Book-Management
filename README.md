@@ -32,8 +32,9 @@ modify, list as well as you can also do a search and delete operations.</li>
 
   <h3>USER Login</h3>
   <ul>
-    <li>The USER login is for regular users or customers of the pharmacy.</li>
-    <li>Registered users can log in to access the system and place medicine orders.</li>
+    <li>The USER login is for regular users or customers of the phone-book management system.</li>
+   <li>For any modification user can ask permission to the admin </li>
+    <li>Registered users can log in to access the system .</li>
     <li>USER login does not provide access to administrative functions.</li>
   </ul>
 <h2>Mind Map</h2>
