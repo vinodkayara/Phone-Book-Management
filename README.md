@@ -23,5 +23,18 @@ modify, list as well as you can also do a search and delete operations.</li>
 </ol>
  <h2>Login System</h2>
   <p>The login system is an essential part of the Phone-book Management System, offering two types of logins:</p>
+   <h3>ADMIN Login</h3>
+  <ul>
+    <li>The ADMIN login provides access to exclusive administrative functions.</li>
+    <li>Only authorized personnel will have access to the ADMIN login.</li>
+    <li>As an administrator, you will be responsible for helping the smooth running of the phone-book management system by ensuring filing and documentation is kep up to date.You could also be required to be customer-facing - via email, phone, or greeting visitors.</li>
+  </ul>
+
+  <h3>USER Login</h3>
+  <ul>
+    <li>The USER login is for regular users or customers of the pharmacy.</li>
+    <li>Registered users can log in to access the system and place medicine orders.</li>
+    <li>USER login does not provide access to administrative functions.</li>
+  </ul>
 <h2>Mind Map</h2>
 <img src="https://github.com/vinodkayara/Phone-Book-Management/blob/main/Mind%20map.png"></img>
