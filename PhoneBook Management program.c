@@ -83,6 +83,8 @@ int main() {
     return 0;
 }
 
+
+
 void addContact() {
     struct Contact* newContact = (struct Contact*)malloc(sizeof(struct Contact));
     if (newContact == NULL) {
@@ -92,11 +94,28 @@ void addContact() {
 
     printf("Enter Name: ");
     scanf(" %[^\n]", newContact->name);
+
     printf("Enter Phone Number: ");
     scanf(" %[^\n]", newContact->phoneNumber);
-    printf("Enter Email: ");
+
+
+    if (strlen(newContact->phoneNumber) > 10) {
+        printf("Error: Phone number cannot have more than 10 digits. Contact not added.\n");
+        free(newContact);
+        return;
+    }
+
+ 
+     printf("Enter Email: ");
     scanf(" %[^\n]", newContact->email);
+    if (strstr(newContact->email, "@gmail.com") == NULL) {
+        printf("Error: Email address must include '@gmail.com'. Contact not added.\n");
+        free(newContact);
+        return;
+    }
+
     newContact->next = NULL;
+    
 
     if (head == NULL) {
         head = newContact;
@@ -284,4 +303,3 @@ void loadContactsFromFile() {
     fclose(file);
     printf("Contacts loaded from file successfully.\n");
 }
-
