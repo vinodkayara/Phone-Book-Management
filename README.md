@@ -40,5 +40,5 @@ modify, list as well as you can also do a search and delete operations.</li>
 <h2>Mind Map</h2>
 <img src="https://github.com/vinodkayara/Phone-Book-Management/blob/main/Mind%20Maps%20(1).jpg"></img>
 <h2>Flowchart</h2>
-<img src=WhatsApp Image 2023-09-04 at 20.34.24></img>
+<img src="https://github.com/vinodkayara/Phone-Book-Management/blob/main/Flowchart.jpg"></img>
 
